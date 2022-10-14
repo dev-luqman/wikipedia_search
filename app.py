@@ -17,7 +17,7 @@ def main(entity):
 
     # Set Status Code
     BAD_STATUS_CODE = 400
-    GOOD_STATUS_CODE = 200 
+    GOOD_STATUS_CODE = 200
     COLOR_CODE = 'green'
 
     # Exception handling
@@ -28,7 +28,7 @@ def main(entity):
         res= f'\nThis word -{entity}- does not exist!\n'
         COLOR_CODE = 'red'
         statusCode = BAD_STATUS_CODE
-    except wikipedia.exceptions.DisambiguationError: 
+    except wikipedia.exceptions.DisambiguationError:
         statusCode = BAD_STATUS_CODE
         COLOR_CODE = 'red'
         res = f'\nThere are multiple references to this word {entity}!\n'
@@ -40,14 +40,14 @@ def main(entity):
     # print statements
     click.secho("WIkI Response is", fg=COLOR_CODE)
     click.secho(res, blink=True, bold=True)
-    
+
     ## TO DO: Format the response as JSON and return the result
     response = {
         "statusCode": statusCode, 
         # "headers": { "Content-type": "application/json" },
         "body": json.dumps({"message": res})
     }
-    
+
     return response
 
 if __name__=="__main__":

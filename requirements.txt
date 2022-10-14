@@ -1,2 +1,5 @@
 wikipedia
+pylint
+pytest
+pytest-cov
 click
