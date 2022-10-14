@@ -60,6 +60,6 @@ This application is created to run on multiple environment
 ```
 
 
-### `Comind Soon ...` for wiki_search
+### `Coming Soon ...` for wiki_search
 1. Container and Kubernetes using aws eks
 2. IAAC 
