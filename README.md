@@ -20,6 +20,13 @@ This application is created to run on multiple environment
 11. Run `sam build --guided` to host on lambda, the command will generate all the necessary resources to deploy to production environment.
 12. Go aws lambda, search for your lamda and test.
 
+### Documents
+1. wiki-app-folder - contains the sam installation for wiki app
+2. app.py-file - local test for wiki search
+3. lambda_app.py file - the lambda function
+4. payload.json - payload for wiki_app
+5. requirement.txt - requirement needed for the app
+
 ### Local (Virtual Environment)
 1. Install python3 and pip
 2. Create a folder and clone the repo
