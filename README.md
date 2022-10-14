@@ -19,3 +19,42 @@ This application is created to run on multiple environment
 10. Run 'sam local invoke -e payload.json'
 11. Run 'sam build --guided' to host on lambda, the command will generate all the necessary resources to deploy to production environment.
 12. Go aws lambda, search for your lamda and test.
+
+### Local (Virtual Environment)
+1. Install python3 and pip
+2. Create a folder and clone the repo
+3. Create a virtaul environment and activate 'the step will be explain below"
+4. Upgrade pip and install requirements.txt 'python -m pip install --upgrade pip && pip install -r requirements.txt -y'
+5. Run 'python app.py <argument>' example:  'python app.py twitter'
+
+
+### virtual Environment
+#### Create a Virtual Environment and activate
+```
+  python3 -m venv ~/.hello
+  source  ~/.hello/bin/activate
+```
+#### Upgrade and install packages
+```
+  python -m pip install --upgrade pip
+  python3 -m pip install -r requirements.txt
+```
+
+### Sam Commands
+
+```
+# Lambda initialisation
+ sam init
+
+# Lamda build 
+  sam build
+
+# Lambda invoke locally
+  sam local invoke
+
+# Lambda invoke locally  with payload
+  sam local invoke -e <payload.json>
+
+#lambda build to production
+ sam build --guided
+```
