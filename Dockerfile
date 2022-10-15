@@ -6,7 +6,8 @@ WORKDIR /app
 
 ## Step 2:
 # Copy source code to working directory
-COPY app.py /app
+COPY . wiki_api.py /app
+COPY requirements.txt requirements.txt
 
 ## Step 3:
 # Install packages from requirements.txt
@@ -15,8 +16,8 @@ RUN python3 install --upgrade pip &&\
       pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.txt
 
 ## Step 4:
-# Expose port 80
+EXPOSE 80
 
 ## Step 5:
 # Run app.py at container launch
-RUN ["python", "app"]
+RUN ["python", "wiki_api"]

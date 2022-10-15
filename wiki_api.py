@@ -109,5 +109,5 @@ def not_allowed_method():
     }), 405
 
 
-# if __name__=="__main__":
-#     main()
+if __name__ == "__main__":
+    app.run(debug=True)

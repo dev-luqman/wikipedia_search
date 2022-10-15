@@ -28,6 +28,7 @@ This application is created to run on multiple environment
 5. requirement.txt - requirement needed for the app
 6. Dockerfile - for containeration of application
 7. Makefile - Simplifying common use code 
+8. wiki_api.py - Running wiki app as api using flask
 
 ### Local (Virtual Environment)
 1. Install python3 and pip
@@ -70,5 +71,6 @@ This application is created to run on multiple environment
 
 
 ### `Coming Soon ...` for wiki_search
-1. Container and Kubernetes using aws eks
+1. Container / Image
+2. Kubernetes using aws eks
 2. IAAC 
