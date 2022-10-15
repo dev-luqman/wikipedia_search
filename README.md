@@ -26,6 +26,8 @@ This application is created to run on multiple environment
 3. lambda_app.py file - the lambda function
 4. payload.json - payload for wiki_app
 5. requirement.txt - requirement needed for the app
+6. Dockerfile - for containeration of application
+7. Makefile - Simplifying common use code 
 
 ### Local (Virtual Environment)
 1. Install python3 and pip
