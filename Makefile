@@ -10,6 +10,7 @@ test:
 
 
 lint:
-	pylint --disable=R,C wiki-app app lambda_app
+	hadolint Dockerfile
+	# pylint --disable=R,C wiki-app app lambda_app
 
 all: install lint test 
