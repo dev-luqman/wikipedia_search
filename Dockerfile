@@ -8,13 +8,11 @@ WORKDIR /app
 # Copy source code to working directory
 COPY app.py /app
 
-COPY requirements.txt /app
-
 ## Step 3:
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN python3 install --upgrade pip &&\
-      pip install --no-cache-dir requirements.txt
+      pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.txt
 
 ## Step 4:
 # Expose port 80

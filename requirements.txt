@@ -1,5 +1,7 @@
-wikipedia
+click
+flask
+flask_cors
+pytest-cov
 pylint
 pytest
-pytest-cov
-click
+wikipedia
