@@ -18,7 +18,7 @@ RUN pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.tx
 #       pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.txt
 
 ## Step 4:
-EXPOSE 80
+EXPOSE 5000
 
 ## Step 5:
 # Run app.py at container launch
