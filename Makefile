@@ -23,7 +23,7 @@ test:
 	python -m pytest -vv --cov=wiki_lambda-app wiki_api.py *.py
 
 lint:
-	# hadolint Dockerfile
+	hadolint Dockerfile
 	pylint --disable=R,C wiki_api app
 
 all: install lint test 
