@@ -20,7 +20,8 @@ run-circleci-local:
 	circleci local execute
 
 test:
-	python -m pytest -vv --cov=wiki_lambda-app wiki_api.py *.py
+	# python -m pytest -vv --cov=wiki_lambda-app wiki_api.py *.py
+	# python -m pytest -vv --cov=wiki_lambda-app 
 
 lint:
 	hadolint Dockerfile
