@@ -1,3 +1,6 @@
+# CircleCi Status code
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/dev-luqman/wikipedia_search/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/dev-luqman/wikipedia_search/tree/main)
+
 # Hello Wiki Search 
 This application is used to search for word online and return first sentence found and also inluded proper error handling
 
