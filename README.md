@@ -74,8 +74,29 @@ This application is created to run on multiple environment
  sam build --guided
 ```
 
+### DOCKER Commands
+
+```
+# Build Image
+docker build -t wiki_api .
+
+# Verify image 
+docker image ls
+
+# Run docker image 
+# docker run -p 5000:5000 wiki_api
+```
+
+the above above code is also simplified in a run_docker.sh file 
+```
+# Change file to excutable file 
+chmod +x run_docker.sh
+
+# run docker
+./run_docker.sh 
+```
+
 
 ### `Coming Soon ...` for wiki_search
-1. Container / Image
 2. Kubernetes using aws eks
 2. IAAC 
