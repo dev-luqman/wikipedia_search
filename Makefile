@@ -11,6 +11,7 @@ env:
 	python3 --version
 	which pytest
 	which pylint
+	locust -V
 
 validate-circleci:
 	circleci config process .circleci/config.yml

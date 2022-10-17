@@ -5,3 +5,4 @@ pytest-cov
 pylint
 pytest
 wikipedia
+locust
