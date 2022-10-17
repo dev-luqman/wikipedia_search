@@ -24,16 +24,16 @@ This application is created to run on multiple environment
 12. Go aws lambda, search for your lamda and test.
 
 ### Documents
-1. wiki-app-folder - contains the sam installation for wiki app
-2. app.py-file - local test for wiki search
-3. lambda_app.py file - the lambda function
-4. payload.json - payload for wiki_app
-5. requirement.txt - requirement needed for the app
-6. Dockerfile - for containeration of application
-7. Makefile - Simplifying common use code 
-8. wiki_api.py - Running wiki app as api using flask
-9. run_docker.sh - Docker script use to build image for the wiki_api.py
-10. locustfile - Create load testing application with locust (Locust url)[https://docs.locust.io/en/latest/installation.html]
+├── wiki-app-folder - contains the sam installation for wiki app
+├── app.py-file - local test for wiki search
+├── lambda_app.py file - the lambda function
+├── payload.json - payload for wiki_app
+├── requirement.txt - requirement needed for the app
+├── Dockerfile - for containeration of application
+├── Makefile - Simplifying common use code 
+├── wiki_api.py - Running wiki app as api using flask
+├── run_docker.sh - Docker script use to build image for the wiki_api.py
+└──  locustfile - Create load testing application with locust [Locust url](https://docs.locust.io/en/latest/installation.html)
 
 ### Local (Virtual Environment)
 1. Install python3 and pip
