@@ -5,4 +5,5 @@ docker build -t wiki_api .
 docker image ls
 
 # Run docker image 
-docker run -p 8000:5000 wiki_api
+# docker run -p 5000:5000 wiki_api
+docker run -p 127.0.0.1:5000:5000 wiki_api
