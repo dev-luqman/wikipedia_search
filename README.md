@@ -33,7 +33,7 @@ This application is created to run on multiple environment
 7. Makefile - Simplifying common use code 
 8. wiki_api.py - Running wiki app as api using flask
 9. run_docker.sh - Docker script use to build image for the wiki_api.py
-10.  locustfile - Create load testing application with locust [Locust url](https://docs.locust.io/en/latest/installation.html)
+10.  locustfile - Create load testing application with [Locust](https://docs.locust.io/en/latest/installation.html)
 
 ### Local (Virtual Environment)
 1. Install python3 and pip
