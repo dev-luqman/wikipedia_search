@@ -2,7 +2,7 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/dev-luqman/wikipedia_search/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/dev-luqman/wikipedia_search/tree/main)
 
 # Hello Wiki Search 
-This application is used to search for word online and return first sentence found and also inluded proper error handling
+This is simple python application that is run on mutiple enviromment such as python venv, docker and aws serverless applicationn(FAAS), the application basically search for words on wikipedia and return proper response back to user. 
 
 ## Application environments
 This application is created to run on multiple environment
